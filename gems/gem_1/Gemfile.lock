@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    gem_1 (0.1.0)
+      sorbet-runtime
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sorbet (0.4.5140)
+      sorbet-static (= 0.4.5140)
+    sorbet-runtime (0.4.5140)
+    sorbet-static (0.4.5140-universal-darwin-14)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gem_1!
+  sorbet
+
+BUNDLED WITH
+   2.0.2
