@@ -1,3 +1,9 @@
+PATH
+  remote: ../../gems/gem_1
+  specs:
+    gem_1 (0.1.0)
+      sorbet-runtime
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -10,6 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gem_1!
   sorbet
   sorbet-runtime
 
