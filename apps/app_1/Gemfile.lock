@@ -1,7 +1,7 @@
 PATH
   remote: ../../gems/gem_1
   specs:
-    gem_1 (0.1.0)
+    gem_1 (0.2.0)
       sorbet-runtime
 
 GEM

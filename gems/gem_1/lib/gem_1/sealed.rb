@@ -1,8 +1,6 @@
 # typed: strong
 
 module Gem1
-  VERSION = T.let(nil, String)
-
   module Sealed
     extend T::Helpers
     sealed!
